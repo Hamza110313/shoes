@@ -1,0 +1,6 @@
+{
+  "name": "KINETIC — Performance Footwear & Drop Dispatch",
+  "description": "Performance footwear storefront and live drop platform featuring Kinetic Obsidian and Kinetic Apex modes with integrated WhatsApp update sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

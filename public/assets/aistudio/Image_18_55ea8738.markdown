@@ -1,0 +1,203 @@
+---
+name: Kinetic Apex
+colors:
+  surface: '#f9f9fa'
+  surface-dim: '#dadadb'
+  surface-bright: '#f9f9fa'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f3f4'
+  surface-container: '#eeeeef'
+  surface-container-high: '#e8e8e9'
+  surface-container-highest: '#e2e2e3'
+  on-surface: '#1a1c1d'
+  on-surface-variant: '#5e3f3b'
+  inverse-surface: '#2f3132'
+  inverse-on-surface: '#f0f1f2'
+  outline: '#936e6a'
+  outline-variant: '#e9bcb7'
+  surface-tint: '#c00014'
+  primary: '#b60012'
+  on-primary: '#ffffff'
+  primary-container: '#e5001a'
+  on-primary-container: '#fff6f5'
+  inverse-primary: '#ffb4ab'
+  secondary: '#5f5e5f'
+  on-secondary: '#ffffff'
+  secondary-container: '#e5e2e3'
+  on-secondary-container: '#656465'
+  tertiary: '#595a5a'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#727272'
+  on-tertiary-container: '#faf8f8'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdad6'
+  primary-fixed-dim: '#ffb4ab'
+  on-primary-fixed: '#410002'
+  on-primary-fixed-variant: '#93000c'
+  secondary-fixed: '#e5e2e3'
+  secondary-fixed-dim: '#c8c6c7'
+  on-secondary-fixed: '#1c1b1c'
+  on-secondary-fixed-variant: '#474647'
+  tertiary-fixed: '#e3e2e2'
+  tertiary-fixed-dim: '#c7c6c6'
+  on-tertiary-fixed: '#1b1c1c'
+  on-tertiary-fixed-variant: '#464747'
+  background: '#f9f9fa'
+  on-background: '#1a1c1d'
+  surface-variant: '#e2e2e3'
+typography:
+  headline-xl:
+    fontFamily: Space Grotesk
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 60px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Work Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Work Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Work Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Space Grotesk
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 12px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 12px
+    letterSpacing: 0.1em
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system targets high-performance runners, sneaker collectors, and technical sportswear enthusiasts who demand precision engineering and uncompromising visual clarity. The aesthetic balances high-contrast minimalism with athletic brutalism: pure white expanses disrupted by surgical black grid lines and energetic bursts of race red.
+
+The interface evokes velocity, physical discipline, and technical mastery. Interactions feel instant, rigid, and deliberate—eschewing soft, organic flourishes in favor of razor-sharp edges, high-contrast structural framing, and bold typographic hierarchy inspired by race bibs, wind tunnel telemetry, and archival track spikes.
+
+## Colors
+
+The palette establishes an aggressive visual tempo through high contrast:
+- **Primary (`#E5001A` / Race Red):** Reserved strictly for active indicators, checkout CTA actions, dropped-time records, stock scarcity warnings, and high-impact badges.
+- **Secondary (`#0D0D0E` / Stark Carbon):** Grounds primary titles, structural 1px borders, key micro-labels, and high-emphasis action states.
+- **Tertiary (`#767676` / Spec Grey):** Utility tone for sizing charts, technical telemetry, metadata, and breadcrumbs.
+- **Neutral (`#F4F4F5` / Cool Track):** Surfaces product pedestal backdrops, inactive card containers, and secondary interactive layers over pure `#FFFFFF` base canvases.
+
+Use pure white (`#FFFFFF`) to spotlight silhouette photography, isolating product geometry against stark outlines.
+
+## Typography
+
+Typographic scale anchors the performance feel:
+- **Headlines & Display:** Set in **Space Grotesk** to inject mechanical, aerodynamic character. Always set primary headlines in tight negative tracking with structural uppercase usage for collection headings and technical footwear model callouts.
+- **Body & Product Descriptions:** Handled by **Work Sans** for immediate readability at velocity. Delivers neutral, highly legible copy across product specifications and editorial reviews.
+- **Labels & Data Badges:** Rendered in **Space Grotesk** all-caps with positive tracking to simulate stamped sprint split markers, serial codes, and technical textile labels.
+
+## Layout & Spacing
+
+The layout operates on a strict 12-column fluid grid system across desktop viewports, condensing to 8 columns on tablet and 4 columns on mobile. Structural 1px border dividers align flush to grid lines, creating a paneled, technical layout reminiscent of spec sheets and blueprint framing.
+
+- **Desktop (1024px+):** `margin-desktop` (3rem) canvas padding; 12 columns with `gutter-desktop` (1.5rem) intervals. Product grids feature alternating aspect ratios to emphasize silhouette motion.
+- **Tablet (768px - 1023px):** `margin-tablet` (2rem); 8 columns with 1rem gutters. Sticky side panels collapse into structured horizontal drawers.
+- **Mobile (<768px):** `margin` (1rem); 4 columns with edge-to-edge full-bleed technical imagery framed by crisp top and bottom hairline borders.
+
+## Elevation & Depth
+
+This design system avoids soft, atmospheric drop shadows. Visual depth is established through physical architecture and contrasting boundary planes:
+
+- **Structural Outlines:** Every surface, modal, and module is framed by crisp, 1px solid borders (`#0D0D0E` for high prominence; `#E4E4E7` for base containment).
+- **Z-Index Offsets (Hard Shadows):** Where layering is required (e.g., sticky action toolbars or hovered buy-cards), use zero-blur directional offset drops: `box-shadow: 4px 4px 0px #0D0D0E`.
+- **Tonal Stepping:** Overlays and flyout filters utilize 85% opacity `#FFFFFF` with minimal backdrop blur, layered directly above contrasting light-grey surfaces (`#F4F4F5`) to maintain optical separation without losing edge crispness.
+
+## Shapes
+
+The interface embraces a completely sharp geometric silhouette (`roundedness: 0`). 
+
+No rounded corners, pills, or softened chamfers appear within the core UI elements. Interactive buttons, product tiles, badges, size selectors, and modal windows feature exact 90-degree corners. This uncompromising architectural geometry underscores the engineered, aerodynamic precision of elite athletic gear.
+
+## Components
+
+- **Buttons:**
+  - *Primary Action (Add to Cart / Buy Now):* Solid `#0D0D0E` background, pure `#FFFFFF` uppercase `label-lg` text, 0px border-radius. On hover, background flashes to `#E5001A` with a hard drop shadow (`2px 2px 0px #0D0D0E`).
+  - *Secondary / Outline:* Pure `#FFFFFF` background with a solid 1px `#0D0D0E` border and uppercase text. Active state triggers inverse black fill with white text.
+  - *Destructive / Alert:* Solid `#E5001A` with `#FFFFFF` text.
+
+- **Badges & Chips:**
+  - *Spec Badges ("NEW DROP", "CARBON PLATE", "RACE DAY"):* Ultra-compact rectangular chips with 1px border. Dark variants use `#0D0D0E` background with white text; speed-tier variants use `#E5001A` background with white text.
+  - *Filter Chips:* Monospaced appearance using `label-md`. Inactive state sits on `#FFFFFF` with `#E4E4E7` border; selected state fills `#0D0D0E` with white text.
+
+- **Product Cards:**
+  - Enclosed in a 1px `#0D0D0E` or `#E4E4E7` frame over an off-white (`#F4F4F5`) photo container.
+  - Footwear images sit against clean white or pale neutral backdrops with zero drop shadow under the shoe, floating technical product specs directly above the bottom border.
+  - Hover triggers an instant swap to technical isometric/top-down outsole views and elevates the card via a `4px 4px 0px #0D0D0E` offset.
+
+- **Input Fields & Size Selectors:**
+  - *Text Inputs:* 1px `#0D0D0E` outline, squared corners, 16px horizontal padding. Labels sit flush outside or pinned to the upper-left boundary in `label-sm` uppercase.
+  - *Shoe Size Matrix:* Rigid grid of sharp square tiles. Out-of-stock sizes feature a diagonal 1px strike-through line; selected sizes take an immediate `#0D0D0E` fill with `#FFFFFF` text.
+
+- **Checkboxes & Radios:**
+  - Pure geometric squares. Unchecked is a 1.5px `#0D0D0E` border; checked contains an inner solid `#E5001A` square inset by 2px, avoiding checkmarks or rounded dots.
+
+- **Domain-Specific Components:**
+  - *Pace & Mileage Telemetry Strip:* Horizontal data ticker displaying shoe drop (mm), weight (oz), and stack height, styled like digital sprint split monitors.
+  - *Drop Countdown Module:* Monospace-style tabular block displaying hours/minutes/seconds until product launch, framed inside high-contrast black and crimson paneling.

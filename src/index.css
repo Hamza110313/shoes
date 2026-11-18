@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display-obsidian: 'Syne', sans-serif;
+    --font-body-obsidian: 'Plus Jakarta Sans', sans-serif;
+    --font-display-apex: 'Archivo', sans-serif;
+    --font-body-apex: 'Work Sans', sans-serif;
+    --font-mono-tech: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    overflow-x: clip;
+    background-color: #f9f9fa;
+    color: #1a1c1d;
+    font-family: var(--font-body-apex);
+  }
+
+  html.dark body {
+    background-color: #09090b;
+    color: #f4f4f5;
+    font-family: var(--font-body-obsidian);
+  }
+}
+
+.font-display-obsidian {
+  font-family: var(--font-display-obsidian);
+}
+
+.font-display-apex {
+  font-family: var(--font-display-apex);
+}
+
+.font-mono-tech {
+  font-family: var(--font-mono-tech);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars cleanly on horizontal mobile tab rails */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Apex brutalist hard offset shadow */
+.apex-hard-shadow {
+  box-shadow: 4px 4px 0px #0d0d0e;
+}
+
+.apex-hard-shadow-sm {
+  box-shadow: 2px 2px 0px #0d0d0e;
+}
+
+/* Volt ambient glow for Obsidian active selection */
+.volt-glow {
+  box-shadow: 0 0 16px rgba(204, 255, 0, 0.25);
+}
+
+/* Diagonal strikethrough for sold-out size tiles */
+.sold-out-strike {
+  background-image: linear-gradient(
+    to top right,
+    transparent calc(50% - 1px),
+    currentColor calc(50%),
+    transparent calc(50% + 1px)
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
